@@ -94,8 +94,8 @@ Each notebook is self-contained: it loads the CSV and rebuilds the same preproce
 The original runs used Python 3.13.
 
 ```bash
-git clone https://github.com/marticasasn/ELEC3612-Assignment1.git
-cd ELEC3612-Assignment1
+git clone https://github.com/marticasasn/job-change-prediction-ml.git
+cd job-change-prediction-ml
 python -m venv .venv
 source .venv/bin/activate        # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
