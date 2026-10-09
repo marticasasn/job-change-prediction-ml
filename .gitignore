@@ -1,11 +1,13 @@
-# Jupyter Notebook outputs
-*.ipynb_checkpoints
-**/.ipynb_checkpoints/*
+# Jupyter
+.ipynb_checkpoints/
 
 # Python
 __pycache__/
 *.pyc
 *.pyo
+.venv/
 
-# Data (too large for GitHub)
-data/
+# Environment and OS files
+.env
+.DS_Store
+Thumbs.db
